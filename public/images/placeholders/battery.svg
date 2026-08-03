@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14141d"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <pattern id="carbon" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#101018"/>
+      <rect width="6" height="6" fill="#151520"/>
+      <rect x="6" y="6" width="6" height="6" fill="#151520"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#carbon)" opacity="0.35"/>
+  <circle cx="400" cy="280" r="170" fill="#ff2d37" opacity="0.07"/>
+  <!-- battery body -->
+  <rect x="270" y="205" width="260" height="150" rx="18" fill="#1b1b26" stroke="#ff2d37" stroke-width="5"/>
+  <rect x="530" y="248" width="28" height="64" rx="8" fill="#ff2d37"/>
+  <path d="M415 225 L355 290 L395 290 L385 335 L445 270 L405 270 Z" fill="#ffb020"/>
+  <rect x="292" y="227" width="60" height="106" rx="8" fill="#ff2d37" opacity="0.25"/>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#e8e8ef" letter-spacing="6">RC BATTERY PACK</text>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#8a8a9a" letter-spacing="4">RC DRIFTER NP</text>
+</svg>
